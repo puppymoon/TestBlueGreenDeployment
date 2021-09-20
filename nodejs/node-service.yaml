@@ -12,6 +12,5 @@ spec:
     name: node-api
   selector:
     app: node-api
-  sessionAffinity: None
 status:
   loadBalancer: {}

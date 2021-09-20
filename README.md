@@ -19,5 +19,5 @@ http://localhost:32000
 
 可以用下面指令更新api的版本觀察pod更新的狀態
 ```sh
-kubectl apply -f node-deployment-1.0.1.yaml
+kubectl apply -f nodejs/node-deployment-1.0.1.yaml
 ```

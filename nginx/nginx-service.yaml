@@ -13,6 +13,5 @@ spec:
     name: nginx
   selector:
     app: nginx
-  sessionAffinity: None
 status:
   loadBalancer: {}

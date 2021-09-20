@@ -193,8 +193,8 @@ spec:
             - containerPort: 8443
               protocol: TCP
           args:
-            - --tls-cert-file=/tls.crt
-            - --tls-key-file=/tls.key           
+            #- --tls-cert-file=/tls.crt
+            #- --tls-key-file=/tls.key           
             - --auto-generate-certificates
             - --namespace=kubernetes-dashboard
             - --enable-skip-login
